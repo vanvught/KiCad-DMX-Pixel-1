@@ -1,0 +1,149 @@
+** Drc report for DMX-Pixel-1.kicad_pcb **
+** Created on 2026-08-26T19:26:13 **
+** Report includes: Errors, Warnings, Exclusions **
+
+** Found 21 DRC violations **
+[hole_clearance]: Hole clearance violation (rule 'JLCPCB: NPTH to Copper (non-Track)' clearance 0.2000 mm; actual 0.1750 mm)
+    Local override; error
+    @(71.8200 mm, 49.0675 mm): Pad A1B12 [GND] of U1 on F.Cu
+    @(71.5200 mm, 47.9475 mm): NPTH pad of U1
+[hole_clearance]: Hole clearance violation (rule 'JLCPCB: NPTH to Copper (non-Track)' clearance 0.2000 mm; actual 0.1751 mm)
+    Local override; error
+    @(65.4200 mm, 49.0675 mm): Pad B1A12 [GND] of U1 on F.Cu
+    @(65.7300 mm, 47.9475 mm): NPTH pad of U1
+[courtyards_overlap]: Courtyards overlap
+    Local override; error
+    @(129.2000 mm, 73.0000 mm): Footprint J7
+    @(115.5000 mm, 66.0000 mm): Footprint J5
+[courtyards_overlap]: Courtyards overlap
+    Local override; error
+    @(129.2000 mm, 45.3000 mm): Footprint J8
+    @(110.2000 mm, 45.3000 mm): Footprint J6
+[silk_overlap]: Silkscreen clearance
+    Local override; warning
+    @(130.6000 mm, 42.9000 mm): PCB text 'D-' on F.Silkscreen
+    @(131.4000 mm, 47.1700 mm): Segment of J8 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Local override; warning
+    @(133.0200 mm, 36.4300 mm): Segment of J8 on F.Silkscreen
+    @(130.6000 mm, 42.9000 mm): PCB text 'D-' on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Local override; warning
+    @(130.8000 mm, 46.3000 mm): PCB text 'G' on F.Silkscreen
+    @(131.4000 mm, 47.1700 mm): Segment of J8 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Local override; warning
+    @(130.6000 mm, 39.2000 mm): PCB text 'D+' on F.Silkscreen
+    @(131.4000 mm, 47.1700 mm): Segment of J8 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Local override; warning
+    @(133.0200 mm, 36.4300 mm): Segment of J8 on F.Silkscreen
+    @(130.6000 mm, 39.2000 mm): PCB text 'D+' on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Local override; warning
+    @(133.0200 mm, 47.1700 mm): Segment of J8 on F.Silkscreen
+    @(130.8000 mm, 30.3700 mm): Segment of J6 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Local override; warning
+    @(126.2800 mm, 36.4300 mm): Segment of J8 on F.Silkscreen
+    @(130.8000 mm, 30.3700 mm): Segment of J6 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Local override; warning
+    @(100.7000 mm, 53.2000 mm): Reference field of U6
+    @(101.4000 mm, 54.0300 mm): Polygon of U6 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Local override; warning
+    @(130.7000 mm, 67.0000 mm): PCB text 'D+' on F.Silkscreen
+    @(131.4000 mm, 74.8700 mm): Segment of J7 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Local override; warning
+    @(133.0200 mm, 64.1300 mm): Segment of J7 on F.Silkscreen
+    @(130.7000 mm, 67.0000 mm): PCB text 'D+' on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Local override; warning
+    @(130.7000 mm, 70.7000 mm): PCB text 'D-' on F.Silkscreen
+    @(131.4000 mm, 74.8700 mm): Segment of J7 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Local override; warning
+    @(130.7000 mm, 70.7000 mm): PCB text 'D-' on F.Silkscreen
+    @(133.0200 mm, 64.1300 mm): Segment of J7 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Local override; warning
+    @(131.0200 mm, 58.6900 mm): Segment of J5 on F.Silkscreen
+    @(126.2800 mm, 64.1300 mm): Segment of J7 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Local override; warning
+    @(130.9000 mm, 74.1000 mm): PCB text 'G' on F.Silkscreen
+    @(131.4000 mm, 74.8700 mm): Segment of J7 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Local override; warning
+    @(131.0200 mm, 58.6900 mm): Segment of J5 on F.Silkscreen
+    @(133.0200 mm, 74.8700 mm): Segment of J7 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Local override; warning
+    @(80.6500 mm, 53.0500 mm): Reference field of D2
+    @(79.6400 mm, 52.3850 mm): Segment of D2 on F.Silkscreen
+[nonmirrored_text_on_back_layer]: Non-Mirrored text on back layer
+    Local override; warning
+    @(59.3400 mm, 88.3000 mm): Reference field of J2
+
+** Found 6 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(65.4200 mm, 49.0675 mm): Pad B1A12 [GND] of U1 on F.Cu
+    @(102.0000 mm, 48.7500 mm): Zone [GND] on F.Cu and B.Cu, priority 1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(71.8200 mm, 49.0675 mm): Pad A1B12 [GND] of U1 on F.Cu
+    @(102.0000 mm, 48.7500 mm): Zone [GND] on F.Cu and B.Cu, priority 1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(66.8700 mm, 49.0675 mm): Pad B5 [Net-(U1-CC2)] of U1 on F.Cu
+    @(67.7500 mm, 50.6750 mm): Pad 1 [Net-(U1-CC2)] of R2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(71.0000 mm, 50.7250 mm): Track [+5V] on F.Cu, length 2.1250 mm
+    @(66.2200 mm, 49.0675 mm): Track [+5V] on F.Cu, length 1.5375 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(78.6000 mm, 49.8750 mm): Pad 2 [Net-(D2-A)] of R3 on F.Cu
+    @(80.6000 mm, 49.7625 mm): Pad 2 [Net-(D2-A)] of D2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(69.4000 mm, 50.6750 mm): Pad 1 [Net-(U1-CC1)] of R1 on F.Cu
+    @(69.8700 mm, 49.0675 mm): Pad A5 [Net-(U1-CC1)] of U1 on F.Cu
+
+** Found 6 Footprint errors **
+[footprint_symbol_field_mismatch]: Missing symbol field 'LCSC Part' in footprint
+    Local override; warning
+    @(76.9000 mm, 50.7000 mm): Footprint C2
+[footprint_symbol_field_mismatch]: Missing symbol field 'LCSC Part' in footprint
+    Local override; warning
+    @(73.9000 mm, 53.5000 mm): Footprint D1
+[footprint_symbol_field_mismatch]: Missing symbol field 'LCSC Part' in footprint
+    Local override; warning
+    @(69.4000 mm, 51.5000 mm): Footprint R1
+[footprint_symbol_field_mismatch]: Missing symbol field 'LCSC Part' in footprint
+    Local override; warning
+    @(67.7500 mm, 51.5000 mm): Footprint R2
+[footprint_symbol_field_mismatch]: Missing symbol field 'Sim.Enable' in footprint
+    Local override; warning
+    @(71.4740 mm, 74.5021 mm): Footprint SYM1
+[footprint_symbol_field_mismatch]: Missing symbol field 'Manufacturer' in footprint
+    Local override; warning
+    @(68.6200 mm, 46.6675 mm): Footprint U1
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Duplicate footprints
+    - Missing footprint
+    - Extra footprint
+    - Footprint doesn't match symbol's footprint filters
+    - PTH inside courtyard
+    - NPTH inside courtyard
+    - Footprint component type doesn't match footprint pads
+    - Footprint doesn't match copy in library
+
+** End of Report **
